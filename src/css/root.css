@@ -1,0 +1,9 @@
+:root {
+    --background: hsl(218, 23%, 16%);
+    --card: hsl(217, 19%, 24%);
+    --card-text:  hsl(150, 100%, 66%);
+    --text: hsl(193, 38%, 86%);
+    --shadow: hsl(193, 62%, 44%);
+    --family: 'Manrope', cursive;
+   
+}

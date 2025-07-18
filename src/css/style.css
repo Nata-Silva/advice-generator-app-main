@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Manrope:wght@200..800&family=Oxanium:wght@200..800&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    background: var(--background);
+    font-family: var(--family);
+    min-height: 100vh;   
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 450px;
+    padding: 20px;
+    background: var(--card);
+    border-radius: 1.2rem;
+    box-shadow: 0rem 0rem 2rem var(--shadow);
+}
+.card .titulo {
+    font-size: 15px;
+    margin-top: 30px;
+    letter-spacing: 5px;
+    color: var(--card-text);
+}
+.card .description {
+    text-align: center;
+    font-size: 23px;
+    padding: 23px;
+    color: var(--text);
+}
+.card picture img {
+  width: 100%;
+}
+.card .dice-button {
+    width: 3.5rem;
+    height: 3.5rem;
+    background: var(--card-text);
+    border: none;
+    transform: translateY(85%); 
+    border-radius: 30px;
+}
+.card .dice-button:hover {
+  color: #53FFAB;
+  cursor: pointer;
+  box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+}
+
